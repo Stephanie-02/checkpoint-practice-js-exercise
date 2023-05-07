@@ -17,7 +17,7 @@ Create another class called Student, which has an extra property called "_academ
 Write getters and setters for all the properties.
 
 In the class Student:
- - write a method called "signup", which receives a callback. This callback function just returns "Develhope". The "signup" method returns a promise, that resolves with "Congrats, you joined ACADEMY_NAME!" after 2 seconds, where ACADEMY_NAME is the string that the callback will return.
+ - write a method called "signup", which receives a callback. This callback function just returns "Develhope". The "signup" method returns a promise, that resolves with "Congrats, you joined ACADEMY_NAME!" after 2 seconds, where ACADEMY_NAME is the string that the callback will return. Use .then() and console.log the string we get when the promise resolves.
 
 Call this signup method at least once, for a student.
 
